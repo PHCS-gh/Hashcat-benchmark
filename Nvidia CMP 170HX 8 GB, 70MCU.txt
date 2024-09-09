@@ -11,7 +11,6 @@ Benchmark relevant options:
 ===========================
 * --backend-devices=1
 * --optimized-kernel-enable
-* --workload-profile=4
 
 -------------------
 * Hash-Mode 0 (MD5)

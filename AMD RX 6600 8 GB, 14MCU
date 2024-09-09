@@ -9,7 +9,7 @@ OpenCL API (OpenCL 2.1 AMD-APP (3592.0)) - Platform #2 [Advanced Micro Devices, 
 
 Benchmark relevant options:
 ===========================
-* --backend-devices=23
+* --backend-devices=1
 * --optimized-kernel-enable
 * --workload-profile=4
 

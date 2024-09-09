@@ -5,7 +5,7 @@ Stock clocks
 
 CUDA API (CUDA 12.5)
 ====================
-* Device #3: NVIDIA CMP 50HX, 9916/10055 MB, 56MCU
+* Device #1: NVIDIA CMP 50HX, 9916/10055 MB, 56MCU
 
 Benchmark relevant options:
 ===========================

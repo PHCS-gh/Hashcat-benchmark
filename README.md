@@ -33,16 +33,33 @@ GPUs hashcat benchmark
 | [CMP 170HX](https://github.com/AndryhaMSK/Hashcat-benchmark/blob/main/Nvidia%20CMP%20170HX%208%20GB%2C%2070MCU.txt) | 70 MCU | 1140 | 1458 | 8 GB | 43 380.6 MH/s |
 
 
+| Nvidia A  | MCU | C-CLK | M-CLK | MEM Size |  0-HCM |
+| --- | --- | --- | --- | --- | --- |
+| [A10G] | 80 MCU |  |  | 24 GB | 60 537.7 MH/s |
+| [A100-SXM4-40GB] | 108 MCU |  |  | 40 GB | 69 600.2 MH/s |
+
 | Nvidia P  | MCU | C-CLK | M-CLK | MEM Size |  0-HCM |
 | --- | --- | --- | --- | --- | --- |
 | [P106-90] | 5 MCU | 1531 | 2002 | 3 GB |  |
 | [P106-100] | 10 MCU | 1506 | 2002 | 6 GB | 9 552.0 MH/s |
 | [P104-100] | 15 MCU | 1607 | 1251 | 4 GB | 16 240.2 MH/s |
 
+| Nvidia H  | MCU | C-CLK | M-CLK | MEM Size |  0-HCM |
+| --- | --- | --- | --- | --- | --- |
+| [H100 80GB HBM3] | 132 MCU |  |  | 80 GB | 111.3 GH/s |
+
+
 | Nvidia Titan  | MCU | C-CLK | M-CLK | MEM Size |  0-HCM |
 | --- | --- | --- | --- | --- | --- |
 | [TITAN V] | 80 MCU | 1200 | 850 | 12 GB | 45 493.6 MH/s |
+| [TITAN RTX] | 72 MCU |  |  | 24 GB | 64 019.6 MH/s |
 
+| Nvidia Tesla  | MCU | C-CLK | M-CLK | MEM Size |  0-HCM |
+| --- | --- | --- | --- | --- | --- |
+| [Tesla K80] | 13 MCU |  |  | 12 GB | 4 504.4 MH/s |
+| [Tesla M60] | 16 MCU |  |  | 8 GB | 11 959.8 MH/s |
+| [Tesla T4] | 40 MCU |  |  | 16 GB | 22 224.3 MH/s |
+| [Tesla V100-SXM2-16G] | 80 MCU |  |  | 16 GB | 55 020.1 MH/s |
 
 | AMD RX  | MCU | C-CLK | M-CLK | MEM Size |  0-HCM |
 | --- | --- | --- | --- | --- | --- |

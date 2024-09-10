@@ -6,6 +6,7 @@ GPUs hashcat benchmark
 | Nvidia GTX  | MCU | C-CLK | M-CLK | MEM Size |  0-HCM |
 | --- | --- | --- | --- | --- | --- |
 | [GTX 1050 Ti](https://github.com/AndryhaMSK/Hashcat-benchmark/blob/main/Nvidia%20GTX%201050%20Ti%204%20GB%2C%206MCU) | 6 MCU | 1304 | 1752 | 4 GB | 5554.2 MH/s |
+| [GTX 1060] | 10 MCU |  |  | 6 GB | 11101.2 MH/s |
 | [GTX 1080](https://github.com/AndryhaMSK/Hashcat-benchmark/blob/main/Nvidia%20GTX%201080%208%20GB%2C%2020MCU) | 20 MCU | 1696 | 1251 | 8 GB | 28122.2 MH/s |
 
 
@@ -23,6 +24,14 @@ GPUs hashcat benchmark
 | [CMP 50HX](https://github.com/AndryhaMSK/Hashcat-benchmark/blob/main/Nvidia%20CMP%2050HX%2010%20GB%2C%2056MCU) | 56 MCU | 1350 | 1750 | 10 GB | 44156.8 MH/s |
 | [CMP 90HX](https://github.com/AndryhaMSK/Hashcat-benchmark/blob/main/Nvidia%20CMP%2050HX%2010%20GB%2C%2056MCU) | 50 MCU | 1500 | 1188 | 10 GB | 39746.3 MH/s |
 | [CMP 170HX](https://github.com/AndryhaMSK/Hashcat-benchmark/blob/main/Nvidia%20CMP%20170HX%208%20GB%2C%2070MCU.txt) | 70 MCU | 1140 | 1458 | 8 GB | 43380.6 MH/s |
+
+
+| Nvidia P  | MCU | C-CLK | M-CLK | MEM Size |  0-HCM |
+| --- | --- | --- | --- | --- | --- |
+| [P106-90] | 5 MCU | 1531 | 2002 | 3 GB |  |
+| [P106-100] | 10 MCU | 1506 | 2002 | 6 GB | 9552.0 MH/s |
+| [P104-100] | 15 MCU | 1607 | 1251 | 4 GB | 16240.2 MH/s |
+
 
 | AMD RX  | MCU | C-CLK | M-CLK | MEM Size |  0-HCM |
 | --- | --- | --- | --- | --- | --- |

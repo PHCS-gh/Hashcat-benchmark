@@ -28,5 +28,5 @@ GPUs hashcat benchmark
 | --- | --- | --- | --- | --- | --- |
 | [RX 470] | 32 MCU ||| 4GB | 10679.3 MH/s |
 | [RX 560 XT] | 28 MCU ||| 8GB | 8219.9 MH/s |
-| [RX 580 2048SP] | 32 MCU | 1150 | 2000 | 8GB | 10186.2 MH/s |
+| [RX 580 2048SP](https://github.com/AndryhaMSK/Hashcat-benchmark/blob/main/AMD%20RX%20580%202048SP%2C%2032MCU) | 32 MCU | 1150 | 2000 | 8GB | 10105.8 MH/s |
 | [RX 6600](https://github.com/AndryhaMSK/Hashcat-benchmark/blob/main/AMD%20RX%206600%208%20GB%2C%2014MCU) | 14 MCU | 2044 | 1750 | 8GB | 20580.4 MH/s |

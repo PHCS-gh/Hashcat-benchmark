@@ -8,7 +8,7 @@ GPUs hashcat benchmark
 | [GTX 1050 Ti](https://github.com/AndryhaMSK/Hashcat-benchmark/blob/main/Nvidia%20GTX%201050%20Ti%204%20GB%2C%206MCU) | 6 MCU | 1304 | 1752 | 4 GB | 5 554.2 MH/s |
 | [GTX 1060] | 10 MCU |  |  | 6 GB | 11 101.2 MH/s |
 | [GTX 1080](https://github.com/AndryhaMSK/Hashcat-benchmark/blob/main/Nvidia%20GTX%201080%208%20GB%2C%2020MCU) | 20 MCU | 1696 | 1251 | 8 GB | 28 122.2 MH/s |
-| [GTX 1650 Ti] | 16 MCU | 1350 | 1500 | 4 GB | 6371.4 MH/s |
+| [GTX 1650 Ti] | 16 MCU | 1350 | 1500 | 4 GB | 6 371.4 MH/s |
 
 | Nvidia RTX  | MCU | C-CLK | M-CLK | MEM Size |  0-HCM |
 | --- | --- | --- | --- | --- | --- |
@@ -34,7 +34,7 @@ GPUs hashcat benchmark
 
 | Nvidia Titan  | MCU | C-CLK | M-CLK | MEM Size |  0-HCM |
 | --- | --- | --- | --- | --- | --- |
-| [TITAN V] | 80 MCU | 1200 | 850 | 12 GB | 45493.6 MH/s |
+| [TITAN V] | 80 MCU | 1200 | 850 | 12 GB | 45 493.6 MH/s |
 
 
 | AMD RX  | MCU | C-CLK | M-CLK | MEM Size |  0-HCM |

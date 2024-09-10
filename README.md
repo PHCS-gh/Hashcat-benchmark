@@ -26,4 +26,7 @@ GPUs hashcat benchmark
 
 | AMD RX  | MCU | C-CLK | M-CLK | MEM Size |  0-HCM |
 | --- | --- | --- | --- | --- | --- |
+| [RX 470] | 32 MCU ||| 4GB | 10679.3 MH/s |
+| [RX 560 XT] | 28 MCU ||| 8GB | 8219.9 MH/s |
+| [RX 580 2048SP] | 32 MCU | 1150 | 2000 | 8GB | 10186.2 MH/s |
 | [RX 6600](https://github.com/AndryhaMSK/Hashcat-benchmark/blob/main/AMD%20RX%206600%208%20GB%2C%2014MCU) | 14 MCU | 2044 | 1750 | 8GB | 20580.4 MH/s |

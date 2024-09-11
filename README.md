@@ -21,7 +21,11 @@ GPUs hashcat benchmark
 | [RTX RTX 3080] | 68 MCU |  |  | 10 GB | 58 120.9 MH/s |
 | [RTX 3080 Ti] | 80 MCU |  |  | 12 GB | 71 301.6 MH/s |
 | [RTX 3090] | 82 MCU |  |  | 24 GB | 70 862.6 MH/s |
+| [RTX 4060] | 24 MCU |  |  | 8 GB | 28 582.1 MH/s |
+| [RTX 4060 Ti] | 34 MCU |  |  | 8 GB | 41 451.3 MH/s |
+| [RTX 4070 SUPER] | 56 MCU |  |  | 12 GB | 65 023.9 MH/s |
 | [RTX 4070 Ti SUPER] | 66 MCU |  |  | 16 GB | 78 787.6 MH/s |
+| [RTX 4080 SUPER] | 80 MCU |  |  | 16 GB | 93 465.6 MH/s |
 | [RTX 4090](https://github.com/AndryhaMSK/Hashcat-benchmark/blob/main/Nvidia%20RTX%204090%2024%20GB%2C%20128MCU) | 128 MCU | 2235 | 1313 | 24 GB | 148.0 GH/s |
 
 

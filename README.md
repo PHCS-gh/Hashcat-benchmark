@@ -5,6 +5,7 @@ GPUs hashcat benchmark
 
 | Nvidia GTX  | MCU | C-CLK | M-CLK | MEM Size |  0-HCM |
 | --- | --- | --- | --- | --- | --- |
+| [GTX 970] | 13 MCU |  |  | 4 GB | 10 113.1 MH/s |
 | [GTX 1050 Ti](https://github.com/AndryhaMSK/Hashcat-benchmark/blob/main/Nvidia%20GTX%201050%20Ti%204%20GB%2C%206MCU) | 6 MCU | 1304 | 1752 | 4 GB | 5 554.2 MH/s |
 | [GTX 1060] | 10 MCU |  |  | 6 GB | 11 101.2 MH/s |
 | [GTX 1080](https://github.com/AndryhaMSK/Hashcat-benchmark/blob/main/Nvidia%20GTX%201080%208%20GB%2C%2020MCU) | 20 MCU | 1696 | 1251 | 8 GB | 28 122.2 MH/s |
@@ -24,11 +25,13 @@ GPUs hashcat benchmark
 | [RTX RTX 3080] | 68 MCU |  |  | 10 GB | 58 120.9 MH/s |
 | [RTX 3080 Ti] | 80 MCU |  |  | 12 GB | 71 301.6 MH/s |
 | [RTX 3090] | 82 MCU |  |  | 24 GB | 70 862.6 MH/s |
+| [RTX 3090 Ti] | 84 MCU |  |  | 24 GB | 79 460.7 MH/s |
 | [RTX 4060] | 24 MCU |  |  | 8 GB | 28 582.1 MH/s |
 | [RTX 4060 Ti] | 34 MCU |  |  | 8 GB | 41 451.3 MH/s |
 | [RTX 4070 SUPER] | 56 MCU |  |  | 12 GB | 65 023.9 MH/s |
 | [RTX 4070 Ti SUPER] | 66 MCU |  |  | 16 GB | 78 787.6 MH/s |
-| [RTX 4080 SUPER] | 80 MCU |  |  | 16 GB | 93 465.6 MH/s |
+| [RTX 4080] | 76 MCU |  |  | 16 GB | 98 262.8 MH/s |
+| [RTX 4080 SUPER] | 80 MCU |  |  | 16 GB | 97 613.2 MH/s |
 | [RTX 4090](https://github.com/AndryhaMSK/Hashcat-benchmark/blob/main/Nvidia%20RTX%204090%2024%20GB%2C%20128MCU) | 128 MCU | 2235 | 1313 | 24 GB | 148.0 GH/s |
 
 
@@ -42,6 +45,7 @@ GPUs hashcat benchmark
 
 | Nvidia A  | MCU | C-CLK | M-CLK | MEM Size |  0-HCM |
 | --- | --- | --- | --- | --- | --- |
+| [A5000] | 64 MCU |  |  | 24 GB | 49 137.5 MH/s |
 | [A10G] | 80 MCU |  |  | 24 GB | 60 537.7 MH/s |
 | [A100-SXM4-40GB] | 108 MCU |  |  | 40 GB | 69 600.2 MH/s |
 
@@ -58,6 +62,7 @@ GPUs hashcat benchmark
 
 | Nvidia Titan  | MCU | C-CLK | M-CLK | MEM Size |  0-HCM |
 | --- | --- | --- | --- | --- | --- |
+| [TITAN X] | 24 MCU |  |  | 12 GB | 18 639.7 MH/s |
 | [TITAN V] | 80 MCU | 1200 | 850 | 12 GB | 45 493.6 MH/s |
 | [TITAN RTX] | 72 MCU |  |  | 24 GB | 64 019.6 MH/s |
 
@@ -66,6 +71,7 @@ GPUs hashcat benchmark
 | [Tesla K80] | 13 MCU |  |  | 12 GB | 4 504.4 MH/s |
 | [Tesla M60] | 16 MCU |  |  | 8 GB | 11 959.8 MH/s |
 | [Tesla T4] | 40 MCU |  |  | 16 GB | 22 224.3 MH/s |
+| [Tesla P100-PCIE-16GB] | 56 MCU |  |  | 16 GB | 27 159.5 MH/s |
 | [Tesla V100-SXM2-16G] | 80 MCU |  |  | 16 GB | 55 020.1 MH/s |
 
 | AMD RX  | MCU | C-CLK | M-CLK | MEM Size |  0-HCM |

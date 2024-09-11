@@ -17,6 +17,7 @@ GPUs hashcat benchmark
 | [RTX 2060](https://github.com/AndryhaMSK/Hashcat-benchmark/blob/main/Nvidia%20RTX%202060%2012%20GB%2C%2034MCU) | 34 MCU | 1470 | 1750 | 12 GB | 29 685.1 MH/s |
 | [RTX 2070] | 36 MCU |  |  | 8 GB | 26 928.4 MH/s |
 | [RTX 2070 SUPER] | 40 MCU |  |  | 8 GB | 34 762.3 MH/s |
+| [RTX 2080] | 46 MCU |  |  | 8 GB | 40 682.9 MH/s |
 | [RTX 2080 Ti] | 68 MCU |  |  | 11 GB | 57 908.1 MH/s |
 | [RTX 3070 Laptop](https://github.com/AndryhaMSK/Hashcat-benchmark/blob/main/Nvidia%20RTX%203070%20Laptop%208%20GB%2C%2040MCU) | 40 MCU | 1110 | 1750 | 8 GB | 31 878.6 MH/s |
 | [RTX 3070 Ti](https://github.com/AndryhaMSK/Hashcat-benchmark/blob/main/Nvidia%20RTX%203070%20Ti%208%20GB%2C%2048MCU) | 48 MCU | 1575 | 1188 | 8 GB | 44 432.0 MH/s |

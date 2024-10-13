@@ -10,6 +10,7 @@ GPUs hashcat benchmark
 | [GTX 1060] | 10 MCU |  |  | 6 GB | 11 101.2 MH/s |
 | [GTX 1080](https://github.com/AndryhaMSK/Hashcat-benchmark/blob/main/Nvidia%20GTX%201080%208%20GB%2C%2020MCU) | 20 MCU | 1696 | 1251 | 8 GB | 28 122.2 MH/s |
 | [GTX 1080 Ti] | 28 MCU |  |  | 11 GB | 34 320.2 MH/s |
+| [GTX 1650(https://github.com/AndryhaMSK/Hashcat-benchmark/blob/main/Nvidia%20GTX%201650%204%20GB%2C%2014MCU) ] | 14 MCU | 1485 | 2001 | 4 GB | 11 622.2 MH/s |
 | [GTX 1650 Ti] | 16 MCU | 1350 | 1500 | 4 GB | 6 371.4 MH/s |
 
 | Nvidia RTX  | MCU | C-CLK | M-CLK | MEM Size |  0-HCM |

@@ -40,6 +40,7 @@ GPUs hashcat benchmark
 | Nvidia CMP  | MCU | C-CLK | M-CLK | MEM Size |  0-HCM |
 | --- | --- | --- | --- | --- | --- |
 | [CMP 50HX](https://github.com/AndryhaMSK/Hashcat-benchmark/blob/main/Nvidia%20CMP%2050HX%2010%20GB%2C%2056MCU) | 56 MCU | 1350 | 1750 | 10 GB | 44 156.8 MH/s |
+| [CMP 70HX] | 30 MCU | | | 8 GB | 22 112.8 MH/s |
 | [CMP 90HX](https://github.com/AndryhaMSK/Hashcat-benchmark/blob/main/Nvidia%20CMP%2050HX%2010%20GB%2C%2056MCU) | 50 MCU | 1500 | 1188 | 10 GB | 39 746.3 MH/s |
 | [CMP 170HX](https://github.com/AndryhaMSK/Hashcat-benchmark/blob/main/Nvidia%20CMP%20170HX%208%20GB%2C%2070MCU.txt) | 70 MCU | 1140 | 1458 | 8 GB | 43 380.6 MH/s |
 

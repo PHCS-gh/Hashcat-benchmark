@@ -3,17 +3,25 @@
 GPUs hashcat benchmark
 
 
-| Nvidia GTX  | MCU | C-CLK | M-CLK | MEM Size |  0-HCM |
+| Nvidia GTX 9xx | MCU | C-CLK | M-CLK | MEM Size |  0-HCM |
 | --- | --- | --- | --- | --- | --- |
 | [GTX 970] | 13 MCU |  |  | 4 GB | 10 113.1 MH/s |
+
+
+| Nvidia GTX 10xx | MCU | C-CLK | M-CLK | MEM Size |  0-HCM |
+| --- | --- | --- | --- | --- | --- |
 | [GTX 1050 Ti](https://github.com/AndryhaMSK/Hashcat-benchmark/blob/main/Nvidia%20GTX%201050%20Ti%204%20GB%2C%206MCU) | 6 MCU | 1304 | 1752 | 4 GB | 5 554.2 MH/s |
 | [GTX 1060] | 10 MCU |  |  | 6 GB | 11 101.2 MH/s |
 | [GTX 1080](https://github.com/AndryhaMSK/Hashcat-benchmark/blob/main/Nvidia%20GTX%201080%208%20GB%2C%2020MCU) | 20 MCU | 1696 | 1251 | 8 GB | 28 122.2 MH/s |
 | [GTX 1080 Ti] | 28 MCU |  |  | 11 GB | 34 320.2 MH/s |
-| [GTX 1650](https://github.com/AndryhaMSK/Hashcat-benchmark/blob/main/Nvidia%20GTX%201650%204%20GB%2C%2014MCU) | 14 MCU | 1485 | 2001 | 4 GB | 11 622.2 MH/s |
-| [GTX 1650 Ti] | 16 MCU | 1350 | 1500 | 4 GB | 6 371.4 MH/s |
 
-| Nvidia RTX  | MCU | C-CLK | M-CLK | MEM Size |  0-HCM |
+
+| Nvidia GTX 16xx | MCU | C-CLK | M-CLK | MEM Size |  0-HCM |
+| --- | --- | --- | --- | --- | --- |
+| [GTX 1650](https://github.com/AndryhaMSK/Hashcat-benchmark/blob/main/Nvidia%20GTX%201650%204%20GB%2C%2014MCU) | 14 MCU | 1485 | 2001 | 4 GB | 11 622.2 MH/s |
+| [GTX 1650 Ti - mobile] | 16 MCU | 1350 | 1500 | 4 GB | 6 371.4 MH/s |
+
+| Nvidia RTX 20xx | MCU | C-CLK | M-CLK | MEM Size |  0-HCM |
 | --- | --- | --- | --- | --- | --- |
 | [RTX 2060](https://github.com/AndryhaMSK/Hashcat-benchmark/blob/main/Nvidia%20RTX%202060%206%20GB%2C%2030MCU) | 30 MCU | 1365 | 1750 | 6 GB | 27 504.1 MH/s |
 | [RTX 2060](https://github.com/AndryhaMSK/Hashcat-benchmark/blob/main/Nvidia%20RTX%202060%2012%20GB%2C%2034MCU) | 34 MCU | 1470 | 1750 | 12 GB | 29 685.1 MH/s |
@@ -21,12 +29,18 @@ GPUs hashcat benchmark
 | [RTX 2070 SUPER] | 40 MCU |  |  | 8 GB | 34 762.3 MH/s |
 | [RTX 2080] | 46 MCU |  |  | 8 GB | 40 682.9 MH/s |
 | [RTX 2080 Ti] | 68 MCU |  |  | 11 GB | 57 908.1 MH/s |
+
+| Nvidia RTX 30xx | MCU | C-CLK | M-CLK | MEM Size |  0-HCM |
+| --- | --- | --- | --- | --- | --- |
 | [RTX 3070 Laptop](https://github.com/AndryhaMSK/Hashcat-benchmark/blob/main/Nvidia%20RTX%203070%20Laptop%208%20GB%2C%2040MCU) | 40 MCU | 1110 | 1750 | 8 GB | 31 878.6 MH/s |
 | [RTX 3070 Ti](https://github.com/AndryhaMSK/Hashcat-benchmark/blob/main/Nvidia%20RTX%203070%20Ti%208%20GB%2C%2048MCU) | 48 MCU | 1575 | 1188 | 8 GB | 44 432.0 MH/s |
 | [RTX RTX 3080] | 68 MCU |  |  | 10 GB | 58 120.9 MH/s |
 | [RTX 3080 Ti] | 80 MCU |  |  | 12 GB | 71 301.6 MH/s |
 | [RTX 3090] | 82 MCU |  |  | 24 GB | 70 862.6 MH/s |
 | [RTX 3090 Ti] | 84 MCU |  |  | 24 GB | 79 460.7 MH/s |
+
+| Nvidia RTX 40xx | MCU | C-CLK | M-CLK | MEM Size |  0-HCM |
+| --- | --- | --- | --- | --- | --- |
 | [RTX 4060] | 24 MCU |  |  | 8 GB | 28 582.1 MH/s |
 | [RTX 4060 Ti] | 34 MCU |  |  | 8 GB | 41 451.3 MH/s |
 | [RTX 4070 SUPER] | 56 MCU |  |  | 12 GB | 65 023.9 MH/s |

@@ -42,6 +42,7 @@ GPUs hashcat benchmark
 | --- | --- | --- | --- | --- | --- |
 | [RTX 4060] | 24 MCU |  |  | 8 GB | 28 582.1 MH/s |
 | [RTX 4060 Ti] | 34 MCU |  |  | 8 GB | 41 451.3 MH/s |
+| [RTX 4070 Ti] | 60 MCU |  |  | 12 GB | 67 809.5 MH/s |
 | [RTX 4070 SUPER] | 56 MCU |  |  | 12 GB | 65 023.9 MH/s |
 | [RTX 4070 Ti SUPER] | 66 MCU |  |  | 16 GB | 78 787.6 MH/s |
 | [RTX 4080] | 76 MCU |  |  | 16 GB | 98 262.8 MH/s |

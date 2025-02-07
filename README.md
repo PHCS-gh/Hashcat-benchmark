@@ -51,7 +51,7 @@ GPUs hashcat benchmark
 
 | Nvidia RTX 50xx | MCU | C-CLK | M-CLK | MEM Size |  0-HCM |
 | --- | --- | --- | --- | --- | --- |
-| [RTX 5080] | 88 MCU | | | 16 GB | 104.8 GH/s |
+| [RTX 5080] | 84 MCU | | | 16 GB | 104.8 GH/s |
 | [RTX 5090] | 170 MCU | | | 32 GB | 215.8 GH/s |
 
 ## NVIDIA MINING

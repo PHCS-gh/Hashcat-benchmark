@@ -49,6 +49,11 @@ GPUs hashcat benchmark
 | [RTX 4080 SUPER] | 80 MCU |  |  | 16 GB | 97 613.2 MH/s |
 | [RTX 4090](https://github.com/AndryhaMSK/Hashcat-benchmark/blob/main/Nvidia%20RTX%204090%2024%20GB%2C%20128MCU) | 128 MCU | 2235 | 1313 | 24 GB | 148.0 GH/s |
 
+| Nvidia RTX 50xx | MCU | C-CLK | M-CLK | MEM Size |  0-HCM |
+| --- | --- | --- | --- | --- | --- |
+| [RTX 5080] | 88 MCU | | | 16 GB | 104.8 GH/s |
+| [RTX 5090] | 170 MCU | | | 32 GB | 215.8 GH/s |
+
 ## NVIDIA MINING
 
 | Nvidia P  | MCU | C-CLK | M-CLK | MEM Size |  0-HCM |

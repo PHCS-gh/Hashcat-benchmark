@@ -7,12 +7,15 @@ GPUs hashcat benchmark
 | --- | --- | --- | --- | --- | --- |
 | [GTX 970] | 13 MCU |  |  | 4 GB | 10 113.1 MH/s |
 
-| Nvidia GTX 10xx | MCU | C-CLK | M-CLK | MEM Size |  0-HCM |
-| --- | --- | --- | --- | --- | --- |
-| [GTX 1050 Ti](https://github.com/AndryhaMSK/Hashcat-benchmark/blob/main/Nvidia%20GTX%201050%20Ti%204%20GB%2C%206MCU) | 6 MCU | 1304 | 1752 | 4 GB | 5 554.2 MH/s |
-| [GTX 1060] | 10 MCU |  |  | 6 GB | 11 101.2 MH/s |
-| [GTX 1080](https://github.com/AndryhaMSK/Hashcat-benchmark/blob/main/Nvidia%20GTX%201080%208%20GB%2C%2020MCU) | 20 MCU | 1696 | 1251 | 8 GB | 28 122.2 MH/s |
-| [GTX 1080 Ti] | 28 MCU |  |  | 11 GB | 34 320.2 MH/s |
+| Nvidia GTX 10xx | MCU | C-CLK | M-CLK | MEM Size |  0-HCM | HC-V & O | Driver & CUDA |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| [GTX 1050 Ti](https://github.com/AndryhaMSK/Hashcat-benchmark/blob/main/Nvidia%20GTX%201050%20Ti%204%20GB%2C%206MCU) | 6 MCU | 1304 | 1752 | 4 GB | 5 554.2 MH/s | 6.2.3 & -O -w 4 | 546.33 & CUDA 12.3 |
+| [GTX 1060] | 9 MCU |  |  | 3 GB | 10 702.5 MH/s | 6.2.6-813 & -O -w 4 | 560.35.03 & CUDA 12.6 |
+| [GTX 1060] | 10 MCU |  |  | 6 GB | 13 097.4 MH/s | 6.2.6-813 & -O -w 4 | 560.35.03 & CUDA 12.6 |
+| [GTX 1070] | 15 MCU |  |  | 8 GB | 19 587.4 MH/s | 6.2.6-813 & -O -w 4 | 550.127.08 & CUDA 12.4 |
+| [GTX 1070 Ti] | 19 MCU |  |  | 8 GB | 24 255.9 MH/s | 6.2.6-813 & -O -w 4 | 550.120 & CUDA 12.4 |
+| [GTX 1080](https://github.com/AndryhaMSK/Hashcat-benchmark/blob/main/Nvidia%20GTX%201080%208%20GB%2C%2020MCU) | 20 MCU | 1696 | 1251 | 8 GB | 28 122.2 MH/s | 6.2.3 & -O -w 4 | 555.85 & CUDA 12.5 |
+| [GTX 1080 Ti] | 28 MCU |  |  | 11 GB | 34 320.2 MH/s | | |
 
 | Nvidia GTX 16xx | MCU | C-CLK | M-CLK | MEM Size |  0-HCM |
 | --- | --- | --- | --- | --- | --- |

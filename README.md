@@ -1,4 +1,6 @@
 # Benchmark of different GPUs in Hashcat
+* Сomparison table with MD5 / 0 HCM (hashcat mode) benchmarks
+* Full benchmark available by click on GPU name
 
 ## NVIDIA GTX
 | Nvidia GTX 9xx | MEM Size | MCU | 0-HCM | HC-V & O | Driver & CUDA |

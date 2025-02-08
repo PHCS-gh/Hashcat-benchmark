@@ -1,6 +1,4 @@
-# Hashcat-benchmark
-
-GPUs hashcat benchmark
+# Benchmark of different GPUs in Hashcat
 
 ## NVIDIA GTX
 | Nvidia GTX 9xx | MEM Size | MCU | 0-HCM | HC-V & O | Driver & CUDA |
@@ -9,17 +7,17 @@ GPUs hashcat benchmark
 
 | Nvidia GTX 10xx | MEM Size | MCU | 0-HCM | HC-V & O | Driver & CUDA |
 | --- | --- | --- | --- | --- | --- |
-| [GTX 1050 Ti](https://github.com/AndryhaMSK/Hashcat-benchmark/blob/main/Nvidia%20GTX%201050%20Ti%204%20GB%2C%206MCU) | 4 GB | 6 MCU | 5 554.2 MH/s | 6.2.3 & -O -w 4 | 546.33 & CUDA 12.3 |
+| [GTX 1050 Ti](https://github.com/PHCS-gh/Hashcat-benchmark/blob/main/NVIDIA/Nvidia%20GTX%201050%20Ti%204%20GB%2C%206MCU) | 4 GB | 6 MCU | 5 554.2 MH/s | 6.2.3 & -O -w 4 | 546.33 & CUDA 12.3 |
 | [GTX 1060] | 3 GB | 9 MCU | 10 702.5 MH/s | 6.2.6-813 & -O -w 4 | 560.35.03 & CUDA 12.6 |
 | [GTX 1060] | 6 GB | 10 MCU | 13 097.4 MH/s | 6.2.6-813 & -O -w 4 | 560.35.03 & CUDA 12.6 |
 | [GTX 1070] | 8 GB | 15 MCU | 19 587.4 MH/s | 6.2.6-813 & -O -w 4 | 550.127.08 & CUDA 12.4 |
 | [GTX 1070 Ti] | 8 GB | 19 MCU | 24 255.9 MH/s | 6.2.6-813 & -O -w 4 | 550.120 & CUDA 12.4 |
-| [GTX 1080](https://github.com/AndryhaMSK/Hashcat-benchmark/blob/main/Nvidia%20GTX%201080%208%20GB%2C%2020MCU) | 8 GB | 20 MCU | 28 122.2 MH/s | 6.2.3 & -O -w 4 | 555.85 & CUDA 12.5 |
+| [GTX 1080](https://github.com/PHCS-gh/Hashcat-benchmark/blob/main/NVIDIA/Nvidia%20GTX%201080%208%20GB%2C%2020MCU) | 8 GB | 20 MCU | 28 122.2 MH/s | 6.2.3 & -O -w 4 | 555.85 & CUDA 12.5 |
 | [GTX 1080 Ti] | 11 GB | 28 MCU | 34 320.2 MH/s | | |
 
 | Nvidia GTX 16xx | MEM Size | MCU | 0-HCM | HC-V & O | Driver & CUDA |
 | --- | --- | --- | --- | --- | --- |
-| [GTX 1650](https://github.com/AndryhaMSK/Hashcat-benchmark/blob/main/Nvidia%20GTX%201650%204%20GB%2C%2014MCU) | 4 GB | 14 MCU | 11 622.2 MH/s | 6.2.3 & -O -w 4 | 560.76 & CUDA 12.6 |
+| [GTX 1650](https://github.com/PHCS-gh/Hashcat-benchmark/blob/main/NVIDIA/Nvidia%20GTX%201650%204%20GB%2C%2014MCU) | 4 GB | 14 MCU | 11 622.2 MH/s | 6.2.3 & -O -w 4 | 560.76 & CUDA 12.6 |
 | [GTX 1660] | 6 GB | 22 MCU | 18 965.5 MH/s | 6.2.3 & -O -w 4 | 565.77 & CUDA 12.7 |
 | [GTX 1660 SUPER] | 6 GB | 22 MCU | 19 584.2 MH/s | 6.2.3 & -O -w 4 | 550.120 & CUDA 12.4 |
 | [GTX 1650 Ti - mobile] | 4 GB | 16 MCU | 6 371.4 MH/s | | |
@@ -27,8 +25,8 @@ GPUs hashcat benchmark
 ## NVIDIA RTX
 | Nvidia RTX 20xx | MEM Size | MCU | 0-HCM | HC-V & O | Driver & CUDA |
 | --- | --- | --- | --- | --- | --- |
-| [RTX 2060](https://github.com/AndryhaMSK/Hashcat-benchmark/blob/main/Nvidia%20RTX%202060%206%20GB%2C%2030MCU) | 6 GB | 30 MCU | 27 504.1 MH/s | 6.2.3 & -O -w 4 | 545.92 & CUDA 12.3|
-| [RTX 2060](https://github.com/AndryhaMSK/Hashcat-benchmark/blob/main/Nvidia%20RTX%202060%2012%20GB%2C%2034MCU) | 12 GB | 34 MCU | 29 685.1 MH/s | 6.2.3 & -O -w 4 | 545.92 & CUDA 12.3|
+| [RTX 2060](https://github.com/PHCS-gh/Hashcat-benchmark/blob/main/NVIDIA/Nvidia%20RTX%202060%206%20GB%2C%2030MCU) | 6 GB | 30 MCU | 27 504.1 MH/s | 6.2.3 & -O -w 4 | 545.92 & CUDA 12.3|
+| [RTX 2060](https://github.com/PHCS-gh/Hashcat-benchmark/blob/main/NVIDIA/Nvidia%20RTX%202060%2012%20GB%2C%2034MCU) | 12 GB | 34 MCU | 29 685.1 MH/s | 6.2.3 & -O -w 4 | 545.92 & CUDA 12.3|
 | [RTX 2060 SUPER] | 8 GB | 34 MCU | 29 124.0 MH/s | 6.2.6-813 & -O -w 4 | 550.54.14 & CUDA 12.4 |
 | [RTX 2070] | 8 GB | 36 MCU | 26 928.4 MH/s |||
 | [RTX 2070 SUPER] | 8 GB | 40 MCU | 34 762.3 MH/s |||
@@ -40,8 +38,8 @@ GPUs hashcat benchmark
 | [RTX 3060] | 12 GB | 28 MCU | 25 183.3 MH/s | 6.2.6-813 & -O -w 4 | 550.127.05 & CUDA 12.4 |
 | [RTX 3060 Ti] | 8 GB | 38 MCU | 34 806.9 MH/s | 6.2.6-813 & -O -w 4 | 550.127.05 & CUDA 12.4 |
 | [RTX 3070] | 8 GB | 46 MCU | 35 457.2 MH/s | 6.2.6-813 & -O -w 4 | 565.77 & CUDA 12.7 |
-| [RTX 3070 Laptop](https://github.com/AndryhaMSK/Hashcat-benchmark/blob/main/Nvidia%20RTX%203070%20Laptop%208%20GB%2C%2040MCU) | 8 GB | 40 MCU | 31 878.6 MH/s | 6.2.3 & -O -w 4 | 545.92 & CUDA 12.3|
-| [RTX 3070 Ti](https://github.com/AndryhaMSK/Hashcat-benchmark/blob/main/Nvidia%20RTX%203070%20Ti%208%20GB%2C%2048MCU) | 8 GB | 48 MCU | 44 432.0 MH/s | 6.2.3 & -O -w 4 | 545.92 & CUDA 12.3|
+| [RTX 3070 Laptop](https://github.com/PHCS-gh/Hashcat-benchmark/blob/main/NVIDIA/Nvidia%20RTX%203070%20Laptop%208%20GB%2C%2040MCU) | 8 GB | 40 MCU | 31 878.6 MH/s | 6.2.3 & -O -w 4 | 545.92 & CUDA 12.3|
+| [RTX 3070 Ti](https://github.com/PHCS-gh/Hashcat-benchmark/blob/main/NVIDIA/Nvidia%20RTX%203070%20Ti%208%20GB%2C%2048MCU) | 8 GB | 48 MCU | 44 432.0 MH/s | 6.2.3 & -O -w 4 | 545.92 & CUDA 12.3|
 | [RTX RTX 3080] | 10 GB | 68 MCU | 61 144.9 MH/s | 6.2.6-813 & -O -w 4 | 560.35.03 & CUDA 12.6 |
 | [RTX 3080 Ti] | 12 GB | 80 MCU | 71 301.6 MH/s |||
 | [RTX 3090] | 24 GB | 82 MCU | 71 714.1 MH/s | 6.2.6-813 & -O -w 4 | 565.57.01 & CUDA 12.7 |
@@ -58,7 +56,7 @@ GPUs hashcat benchmark
 | [RTX 4070 Ti SUPER] | 16 GB | 66 MCU | 84 984.2 MH/s | 6.2.6-813 & -O -w 4 | 550.90.07 & CUDA 12.4 |
 | [RTX 4080] | 16 GB | 76 MCU | 98 262.8 MH/s |||
 | [RTX 4080 SUPER] | 16 GB | 80 MCU | 99 625.4 MH/s | 6.2.6-813 & -O -w 4 | 550.67 & CUDA 12.4 |
-| [RTX 4090](https://github.com/AndryhaMSK/Hashcat-benchmark/blob/main/Nvidia%20RTX%204090%2024%20GB%2C%20128MCU) | 24 GB | 128 MCU | 148.0 GH/s | 6.2.3 & -O -w 4 | 545.92 & CUDA 12.3|
+| [RTX 4090](https://github.com/PHCS-gh/Hashcat-benchmark/blob/main/NVIDIA/Nvidia%20RTX%204090%2024%20GB%2C%20128MCU) | 24 GB | 128 MCU | 148.0 GH/s | 6.2.3 & -O -w 4 | 545.92 & CUDA 12.3|
 
 | Nvidia RTX 50xx | MEM Size | MCU | 0-HCM | HC-V & O | Driver & CUDA |
 | --- | --- | --- | --- | --- | --- |
@@ -75,10 +73,10 @@ GPUs hashcat benchmark
 
 | Nvidia CMP | MEM Size | MCU | 0-HCM | HC-V & O | Driver & CUDA |
 | --- | --- | --- | --- | --- | --- |
-| [CMP 50HX](https://github.com/AndryhaMSK/Hashcat-benchmark/blob/main/Nvidia%20CMP%2050HX%2010%20GB%2C%2056MCU) | 10 GB | 56 MCU | 44 156.8 MH/s | 6.2.3 & -O -w 4 | 555.85 & CUDA 12.5|
+| [CMP 50HX](https://github.com/PHCS-gh/Hashcat-benchmark/blob/main/NVIDIA/Nvidia%20CMP%2050HX%2010%20GB%2C%2056MCU) | 10 GB | 56 MCU | 44 156.8 MH/s | 6.2.3 & -O -w 4 | 555.85 & CUDA 12.5|
 | [CMP 70HX] | 8 GB | 30 MCU | 22 112.8 MH/s |||
-| [CMP 90HX](https://github.com/AndryhaMSK/Hashcat-benchmark/blob/main/Nvidia%20CMP%2050HX%2010%20GB%2C%2056MCU) | 10 GB | 50 MCU | 39 746.3 MH/s | 6.2.3 & -O -w 4 | 555.85 & CUDA 12.5|
-| [CMP 170HX](https://github.com/AndryhaMSK/Hashcat-benchmark/blob/main/Nvidia%20CMP%20170HX%208%20GB%2C%2070MCU.txt) | 8 GB | 70 MCU | 43 380.6 MH/s | 6.2.6 & -O| 552.12 & CUDA 12.4|
+| [CMP 90HX](https://github.com/PHCS-gh/Hashcat-benchmark/blob/main/NVIDIA/Nvidia%20CMP%2090HX%2010%20GB%2C%2050MCU) | 10 GB | 50 MCU | 39 746.3 MH/s | 6.2.3 & -O -w 4 | 555.85 & CUDA 12.5|
+| [CMP 170HX](https://github.com/PHCS-gh/Hashcat-benchmark/blob/main/NVIDIA/Nvidia%20CMP%20170HX%208%20GB%2C%2070MCU.txt) | 8 GB | 70 MCU | 43 380.6 MH/s | 6.2.6 & -O| 552.12 & CUDA 12.4|
 
 ## NVIDIA PRO
 
@@ -109,5 +107,5 @@ GPUs hashcat benchmark
 | --- | --- | --- | --- | --- | --- |
 | [RX 470] | 4GB | 32 MCU | 10 679.3 MH/s |||
 | [RX 560 XT] | 8GB | 28 MCU | 8 219.9 MH/s |||
-| [RX 580 2048SP](https://github.com/AndryhaMSK/Hashcat-benchmark/blob/main/AMD/AMD%20RX%20580%202048SP%2C%2032MCU) | 8GB | 32 MCU | 10 105.8 MH/s | 6.2.6 & -O -w 4| AMD 22.5.1|
-| [RX 6600](https://github.com/AndryhaMSK/Hashcat-benchmark/blob/main/AMD/AMD%20RX%206600%208%20GB%2C%2014MCU) | 8GB | 14 MCU | 20 580.4 MH/s | 6.2.3 & -O -w 4 | AMD 23.12.1|
+| [RX 580 2048SP](https://github.com/PHCS-gh/Hashcat-benchmark/blob/main/AMD/AMD%20RX%20580%202048SP%2C%2032MCU) | 8GB | 32 MCU | 10 105.8 MH/s | 6.2.6 & -O -w 4| AMD 22.5.1|
+| [RX 6600](https://github.com/PHCS-gh/Hashcat-benchmark/blob/main/AMD/AMD%20RX%206600%208%20GB%2C%2014MCU) | 8GB | 14 MCU | 20 580.4 MH/s | 6.2.3 & -O -w 4 | AMD 23.12.1|

@@ -17,10 +17,12 @@ GPUs hashcat benchmark
 | [GTX 1080](https://github.com/AndryhaMSK/Hashcat-benchmark/blob/main/Nvidia%20GTX%201080%208%20GB%2C%2020MCU) | 20 MCU | 1696 | 1251 | 8 GB | 28 122.2 MH/s | 6.2.3 & -O -w 4 | 555.85 & CUDA 12.5 |
 | [GTX 1080 Ti] | 28 MCU |  |  | 11 GB | 34 320.2 MH/s | | |
 
-| Nvidia GTX 16xx | MCU | C-CLK | M-CLK | MEM Size |  0-HCM |
-| --- | --- | --- | --- | --- | --- |
-| [GTX 1650](https://github.com/AndryhaMSK/Hashcat-benchmark/blob/main/Nvidia%20GTX%201650%204%20GB%2C%2014MCU) | 14 MCU | 1485 | 2001 | 4 GB | 11 622.2 MH/s |
-| [GTX 1650 Ti - mobile] | 16 MCU | 1350 | 1500 | 4 GB | 6 371.4 MH/s |
+| Nvidia GTX 16xx | MCU | C-CLK | M-CLK | MEM Size |  0-HCM | HC-V & O | Driver & CUDA |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| [GTX 1650](https://github.com/AndryhaMSK/Hashcat-benchmark/blob/main/Nvidia%20GTX%201650%204%20GB%2C%2014MCU) | 14 MCU | 1485 | 2001 | 4 GB | 11 622.2 MH/s | 6.2.3 & -O -w 4 | 560.76 & CUDA 12.6 |
+| [GTX 1660] | 22 MCU | | | 6 GB | 18 965.5 MH/s | 6.2.3 & -O -w 4 | 565.77 & CUDA 12.7 |
+| [GTX 1660 SUPER] | 22 MCU | | | 6 GB | 19 584.2 MH/s | 6.2.3 & -O -w 4 | 550.120 & CUDA 12.4 |
+| [GTX 1650 Ti - mobile] | 16 MCU | 1350 | 1500 | 4 GB | 6 371.4 MH/s | | |
 
 ## NVIDIA RTX
 | Nvidia RTX 20xx | MCU | C-CLK | M-CLK | MEM Size |  0-HCM |

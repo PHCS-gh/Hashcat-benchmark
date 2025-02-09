@@ -45,7 +45,7 @@
 | [RTX RTX 3080] | 10 GB | 68 MCU | 61 144.9 MH/s | 6.2.6-813 & -O -w 4 | 560.35.03 & CUDA 12.6 |
 | [RTX 3080 Ti] | 12 GB | 80 MCU | 71 301.6 MH/s |||
 | [RTX 3090] | 24 GB | 82 MCU | 71 714.1 MH/s | 6.2.6-813 & -O -w 4 | 565.57.01 & CUDA 12.7 |
-| [RTX 3090 Ti] | 24 GB | 84 MCU | 79 460.7 MH/s |||
+| [RTX 3090 Ti] | 24 GB | 84 MCU | 79 738.8 MH/s | - & -O -w 4 | 525.60.11 & CUDA 12.0 |
 
 | Nvidia RTX 40xx | MEM Size | MCU | 0-HCM | HC-V & O | Driver & CUDA |
 | --- | --- | --- | --- | --- | --- |

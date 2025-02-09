@@ -104,6 +104,7 @@
 | [A10G] | 24 GB | 80 MCU | 60 537.7 MH/s |||
 | [A100-SXM4-40GB] | 40 GB | 108 MCU | 69 600.2 MH/s |||
 | [H100 80GB HBM3] | 80 GB | 132 MCU | 111.3 GH/s |||
+| [L40S] | 48 GB | 142 MCU | 148.0 GH/s | 6.2.6-851 & -O | - & CUDA 12.5 |
 
 ## AMD RX
 | AMD RX | MEM Size | MCU | 0-HCM | HC-V & O | Driver |

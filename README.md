@@ -119,3 +119,8 @@
 | INTEL | MEM Size | MCU | 0-HCM | HC-V & O | Driver |
 | --- | --- | --- | --- | --- | --- |
 | [Arc B580] | 12 GB | 160 MCU | 24 154.6 MH/s | 6.2.6-813 & -O | - |
+
+## CPU
+| AMD | MEM Size | MCU | 0-HCM | HC-V & O | Driver |
+| --- | --- | --- | --- | --- | --- |
+| [EPYC 9754 128-Core] | 2.3 TB | 511 MCU | 28 029.6 MH/s | 6.2.6 & -O | - |

@@ -83,12 +83,10 @@
 
 ## NVIDIA PRO
 
-| Nvidia A | MEM Size | MCU | 0-HCM | HC-V & O | Driver & CUDA |
+| Nvidia Quadro | MEM Size | MCU | 0-HCM | HC-V & O | Driver & CUDA |
 | --- | --- | --- | --- | --- | --- |
-| [A4000] | 16 GB | 48 MCU | 33 288.7 MH/s | 6.2.6-813 & -O -w 4 | 555.58.02 & CUDA 12.5 |
-| [A5000] | 24 GB | 64 MCU | 49 137.5 MH/s |||
-| [A10G] | 24 GB | 80 MCU | 60 537.7 MH/s |||
-| [A100-SXM4-40GB] | 40 GB | 108 MCU | 69 600.2 MH/s |||
+| [RTX A4000] | 16 GB | 48 MCU | 33 288.7 MH/s | 6.2.6-813 & -O -w 4 | 555.58.02 & CUDA 12.5 |
+| [RTX A5000] | 24 GB | 64 MCU | 49 137.5 MH/s |||
 
 | Nvidia Titan | MEM Size | MCU | 0-HCM | HC-V & O | Driver & CUDA |
 | --- | --- | --- | --- | --- | --- |
@@ -103,10 +101,12 @@
 | [Tesla T4] | 16 GB | 40 MCU | 22 224.3 MH/s |||
 | [Tesla P100-PCIE-16GB] | 16 GB | 56 MCU | 27 159.5 MH/s |||
 | [Tesla V100-SXM2-16G] | 16 GB | 80 MCU | 55 020.1 MH/s |||
-| [Tesla H100 80GB HBM3] | 80 GB | 132 MCU | 111.3 GH/s |||
+| [A10G] | 24 GB | 80 MCU | 60 537.7 MH/s |||
+| [A100-SXM4-40GB] | 40 GB | 108 MCU | 69 600.2 MH/s |||
+| [H100 80GB HBM3] | 80 GB | 132 MCU | 111.3 GH/s |||
 
 ## AMD RX
-| AMD RX | MEM Size | MCU | 0-HCM | HC-V & O | Driver & CUDA |
+| AMD RX | MEM Size | MCU | 0-HCM | HC-V & O | Driver |
 | --- | --- | --- | --- | --- | --- |
 | [RX 470] | 4 GB | 32 MCU | 10 679.3 MH/s |||
 | [RX 560 XT] | 8 GB | 28 MCU | 8 219.9 MH/s |||

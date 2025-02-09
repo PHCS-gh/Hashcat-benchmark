@@ -50,6 +50,7 @@
 | Nvidia RTX 40xx | MEM Size | MCU | 0-HCM | HC-V & O | Driver & CUDA |
 | --- | --- | --- | --- | --- | --- |
 | [RTX 4060] | 8 GB | 24 MCU | 28 582.1 MH/s |||
+| [RTX 4060 Laptop] | 8 GB | 24 MCU | 25 319.9 MH/s | 6.2.5-397 & -O -w 4 | - & CUDA 12.4 |
 | [RTX 4060 Ti] | 8 GB | 34 MCU | 41 451.3 MH/s |||
 | [RTX 4060 Ti] | 16 GB | 34 MCU | 42 965.2 MH/s | 6.2.6-813 & -O -w 4 | 560.35.03 & CUDA 12.6 |
 | [RTX 4070] | 12 GB | 46 MCU | 58 823.7 MH/s | 6.2.6-813 & -O -w 4 | 550.120 & CUDA 12.4 |

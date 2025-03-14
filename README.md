@@ -33,6 +33,7 @@
 | [RTX 2070] | 8 GB | 36 MCU | 26 928.4 MH/s |||
 | [RTX 2070 SUPER] | 8 GB | 40 MCU | 34 762.3 MH/s |||
 | [RTX 2080] | 8 GB | 46 MCU | 40 682.9 MH/s |||
+| [RTX 2080 SUPER] | 8 GB | 48 MCU | 41 368.1 MH/s |||
 | [RTX 2080 Ti] | 11 GB | 68 MCU | 57 908.1 MH/s |||
 
 | Nvidia RTX 30xx | MEM Size | MCU | 0-HCM | HC-V & O | Driver & CUDA |

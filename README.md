@@ -64,6 +64,7 @@
 
 | Nvidia RTX 50xx | MEM Size | MCU | 0-HCM | HC-V & O | Driver & CUDA |
 | --- | --- | --- | --- | --- | --- |
+| [RTX 5070] | 12 GB | 48 MCU | 61367.6 MH/s | 7.0.0 & -O | - & CUDA 13.0|
 | [RTX 5080] | 16 GB | 84 MCU | 104.8 GH/s | 6.2.6 & -O | - & CUDA 12.8|
 | [RTX 5090] | 32 GB | 170 MCU | 215.8 GH/s | 6.2.6 & -O | - & CUDA 12.8|
 

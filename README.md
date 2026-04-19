@@ -3,6 +3,10 @@
 * Full benchmark available by click on GPU name
 
 ## NVIDIA GTX
+| Nvidia GTX 7xx | MEM Size | MCU | 0-HCM | HC-V & O | Driver & CUDA |
+| --- | --- | --- | --- | --- | --- |
+| [GTX 750 Ti] | 2 GB | 5 MCU | 3 911.5 MH/s |||
+
 | Nvidia GTX 9xx | MEM Size | MCU | 0-HCM | HC-V & O | Driver & CUDA |
 | --- | --- | --- | --- | --- | --- |
 | [GTX 970] | 4 GB | 13 MCU | 10 113.1 MH/s |||

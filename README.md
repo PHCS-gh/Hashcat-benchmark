@@ -117,6 +117,10 @@
 | [RX 5600 XT] | 6 GB | 18 MCU | 20 646.9 MH/s | 6.2.6-851 & -O | -|
 | [RX 6600](https://github.com/PHCS-gh/Hashcat-benchmark/blob/main/AMD/AMD%20RX%206600%208%20GB%2C%2014MCU) | 8 GB | 14 MCU | 20 580.4 MH/s | 6.2.3 & -O -w 4 | AMD 23.12.1|
 
+| AMD R9 | MEM Size | MCU | 0-HCM | HC-V & O | Driver |
+| --- | --- | --- | --- | --- | --- |
+| [R9 290] | 3 GB | 44 MCU | 10 147.4 MH/s |||
+
 ## INTEL
 | INTEL | MEM Size | MCU | 0-HCM | HC-V & O | Driver |
 | --- | --- | --- | --- | --- | --- |

@@ -64,7 +64,9 @@
 
 | Nvidia RTX 50xx | MEM Size | MCU | 0-HCM | HC-V & O | Driver & CUDA |
 | --- | --- | --- | --- | --- | --- |
-| [RTX 5070] | 12 GB | 48 MCU | 61367.6 MH/s | 7.0.0 & -O | - & CUDA 13.0|
+| [RTX 5060 Ti] | 16 GB | 36 MCU | 47 042.6 MH/s | 7.1.2 & -O | - & CUDA 13.0|
+| [RTX 5070] | 12 GB | 48 MCU | 61 367.6 MH/s | 7.0.0 & -O | - & CUDA 13.0|
+| [RTX 5070 Ti] | 16 GB | 70 MCU | 88 229.4 MH/s | 6.2.6 & -O | - & CUDA 12.8|
 | [RTX 5080] | 16 GB | 84 MCU | 104.8 GH/s | 6.2.6 & -O | - & CUDA 12.8|
 | [RTX 5090] | 32 GB | 170 MCU | 215.8 GH/s | 6.2.6 & -O | - & CUDA 12.8|
 
@@ -89,6 +91,7 @@
 | --- | --- | --- | --- | --- | --- |
 | [RTX A4000] | 16 GB | 48 MCU | 33 288.7 MH/s | 6.2.6-813 & -O -w 4 | 555.58.02 & CUDA 12.5 |
 | [RTX A5000] | 24 GB | 64 MCU | 49 137.5 MH/s |||
+| [RTX A6000] | 48 GB | 142 MCU | 131.9 GH/s | 6.2.6 & -O ||
 
 | Nvidia Titan | MEM Size | MCU | 0-HCM | HC-V & O | Driver & CUDA |
 | --- | --- | --- | --- | --- | --- |

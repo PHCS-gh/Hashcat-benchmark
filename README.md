@@ -108,6 +108,10 @@
 | [H100 80GB HBM3] | 80 GB | 132 MCU | 111.3 GH/s |||
 | [L40S] | 48 GB | 142 MCU | 148.0 GH/s | 6.2.6-851 & -O | - & CUDA 12.5 |
 
+| Nvidia Server | MEM Size | MCU | 0-HCM | HC-V & O | Driver & CUDA |
+| --- | --- | --- | --- | --- | --- |
+| [NVIDIA B200] | 180 GB | 148 MCU | 140.4 GH/s | 7.1.2 & O | 570.172.08 & 12.8|
+
 ## AMD RX
 | AMD RX | MEM Size | MCU | 0-HCM | HC-V & O | Driver |
 | --- | --- | --- | --- | --- | --- |

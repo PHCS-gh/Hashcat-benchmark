@@ -87,6 +87,7 @@
 | [CMP 50HX](https://github.com/PHCS-gh/Hashcat-benchmark/blob/main/NVIDIA/Nvidia%20CMP%2050HX%2010%20GB%2C%2056MCU) | 10 GB | 56 MCU | 44 156.8 MH/s | 6.2.3 & -O -w 4 | 555.85 & CUDA 12.5|
 | [CMP 70HX] | 8 GB | 30 MCU | 22 112.8 MH/s |||
 | [CMP 90HX](https://github.com/PHCS-gh/Hashcat-benchmark/blob/main/NVIDIA/Nvidia%20CMP%2090HX%2010%20GB%2C%2050MCU) | 10 GB | 50 MCU | 39 746.3 MH/s | 6.2.3 & -O -w 4 | 555.85 & CUDA 12.5|
+| [CMP 100-200] | 6 GB | 68 MCU | 37 163.9 MH/s | 6.2.6 & -O | - & CUDA 12.4|
 | [CMP 170HX](https://github.com/PHCS-gh/Hashcat-benchmark/blob/main/NVIDIA/Nvidia%20CMP%20170HX%208%20GB%2C%2070MCU.txt) | 8 GB | 70 MCU | 43 380.6 MH/s | 6.2.6 & -O| 552.12 & CUDA 12.4|
 
 ## NVIDIA PRO

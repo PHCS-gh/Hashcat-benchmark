@@ -121,7 +121,7 @@
 
 ## NVIDIA PRO
 
-### NVIDIA Quadro / RTX A
+### RTX A — Ampere
 
 | GPU | VRAM | MD5 speed | Hashcat | Options | Driver | Runtime |
 |---|---:|---:|---|---|---|---|

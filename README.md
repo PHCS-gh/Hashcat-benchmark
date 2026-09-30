@@ -167,7 +167,7 @@
 
 | GPU | VRAM | MD5 speed | Hashcat | Options | Driver | Runtime |
 |---|---:|---:|---|---|---|---|
-| NVIDIA B200 | 180 GB | 140.4 GH/s | 7.1.2 | `O` | 570.172.08 | 12.8 |
+| NVIDIA B200 | 180 GB | 140.4 GH/s | 7.1.2 | `-O` | 570.172.08 | 12.8 |
 
 ## AMD
 
@@ -232,8 +232,7 @@
 
 | CPU | Memory | MD5 speed | Hashcat | Options | Driver | Runtime |
 |---|---:|---:|---|---|---|---|
-| EPYC 9754 128-Core | 2.3 TB | 28.0 GH/s | 6.2.6 | `-O` | — | — |
-| Ryzen Threadripper 3990X 64-Core | 128 GB | 8 922.5 MH/s | 7.1.2-798-g40a7d0c | `-O` | — | — |
+| Xeon E3-1270 v3 | 16 GB | - | 7.1.2-615-g15a71f8 | `-O` | — | — |
 
 ### AMD
 

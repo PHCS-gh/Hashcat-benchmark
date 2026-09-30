@@ -50,6 +50,7 @@
 | RTX 2060 SUPER | 8 GB | 29.1 GH/s | 6.2.6-813 | `-O -w 4` | 550.54.14 | CUDA 12.4 |
 | RTX 2070 | 8 GB | 26.9 GH/s | — | — | — | — |
 | RTX 2070 SUPER | 8 GB | 34.8 GH/s | — | — | — | — |
+| RTX 2070 SUPER Max-Q - Laptop | 8 GB | 25.0 GH/s | 6.2.5 | `-O` | 470.141.03 | CUDA 11.4 |
 | RTX 2080 | 8 GB | 40.7 GH/s | — | — | — | — |
 | RTX 2080 SUPER | 8 GB | 41.4 GH/s | — | — | — | — |
 | RTX 2080 Ti | 11 GB | 57.9 GH/s | — | — | — | — |
@@ -58,7 +59,10 @@
 
 | GPU | VRAM | MD5 speed | Hashcat | Options | Driver | Runtime |
 |---|---:|---:|---|---|---|---|
+| RTX 3050 6 GB | 6 GB | 13.9 GH/s | — | `-O` | — | OpenCL CUDA 12.4.131 |
+| RTX 3050 Ti - Laptop | 4 GB | 16.8 GH/s | 6.2.6 | `-O` | — | CUDA 12.0 |
 | RTX 3060 | 12 GB | 25.2 GH/s | 6.2.6-813 | `-O -w 4` | 550.127.05 | CUDA 12.4 |
+| RTX 3060 - Laptop | 6 GB | 25.0 GH/s | 6.2.5 | `-O` | — | CUDA 11.6 |
 | RTX 3060 Ti | 8 GB | 34.8 GH/s | 6.2.6-813 | `-O -w 4` | 550.127.05 | CUDA 12.4 |
 | RTX 3070 | 8 GB | 35.5 GH/s | 6.2.6-813 | `-O -w 4` | 565.77 | CUDA 12.7 |
 | [RTX 3070 - Laptop, Desktop PCB](https://github.com/PHCS-gh/Hashcat-benchmark/blob/main/NVIDIA/Nvidia%20RTX%203070%20Laptop%208%20GB%2C%2040MCU) | 8 GB | 31.9 GH/s | 6.2.3 | `-O -w 4` | 545.92 | CUDA 12.3 |
@@ -72,6 +76,7 @@
 
 | GPU | VRAM | MD5 speed | Hashcat | Options | Driver | Runtime |
 |---|---:|---:|---|---|---|---|
+| RTX 4050 - Laptop | 6 GB | 8 278.2 MH/s | 6.2.6 | `-w 1` | — | CUDA 12.9 |
 | RTX 4060 | 8 GB | 28.6 GH/s | — | — | — | — |
 | RTX 4060 - Laptop | 8 GB | 25.3 GH/s | 6.2.5-397 | `-O -w 4` | — | CUDA 12.4 |
 | RTX 4060 Ti | 8 GB | 41.5 GH/s | — | — | — | — |
@@ -122,7 +127,19 @@
 |---|---:|---:|---|---|---|---|
 | RTX A4000 | 16 GB | 33.3 GH/s | 6.2.6-813 | `-O -w 4` | 555.58.02 | CUDA 12.5 |
 | RTX A5000 | 24 GB | 49.1 GH/s | — | — | — | — |
-| RTX A6000 | 48 GB | 131.9 GH/s | 6.2.6 | `-O` | — | — |
+
+### NVIDIA PRO — Ada Generation
+
+| GPU | VRAM | MD5 speed | Hashcat | Options | Driver | Runtime |
+|---|---:|---:|---|---|---|---|
+| RTX 6000 Ada Generation | 48 GB | 131.9 GH/s | 6.2.6 | `-O` | — | CUDA 12.8 |
+
+### NVIDIA PRO — Blackwell
+
+| GPU | VRAM | MD5 speed | Hashcat | Options | Driver | Runtime |
+|---|---:|---:|---|---|---|---|
+| RTX PRO 6000 Blackwell Server Edition | 96 GB | 200.9 GH/s | 7.1.2 | `-O` | — | CUDA 13.0 |
+| RTX PRO 6000 Blackwell Workstation Edition | 96 GB | 251.0 GH/s | 7.1.2 | `-O` | — | OpenCL CUDA 13.3.44 |
 
 ### NVIDIA Titan
 
@@ -161,8 +178,20 @@
 | RX 470 | 4 GB | 10.7 GH/s | — | — | — | — |
 | RX 560 XT | 8 GB | 8 219.9 MH/s | — | — | — | — |
 | [RX 580 2048SP](https://github.com/PHCS-gh/Hashcat-benchmark/blob/main/AMD/AMD%20RX%20580%202048SP%2C%2032MCU) | 8 GB | 10.1 GH/s | 6.2.6 | `-O -w 4` | AMD 22.5.1 | — |
-| RX 5600 XT | 6 GB | 20.6 GH/s | 6.2.6-851 | `-O` | — | — |
+| RX 590 | 8 GB | 14.0 GH/s | 6.2.5 | `-O` | — | OpenCL AMD-APP 3380.4 |
+
+### AMD RX 6000
+
+| GPU | VRAM | MD5 speed | Hashcat | Options | Driver | Runtime |
+|---|---:|---:|---|---|---|---|
 | [RX 6600](https://github.com/PHCS-gh/Hashcat-benchmark/blob/main/AMD/AMD%20RX%206600%208%20GB%2C%2014MCU) | 8 GB | 20.6 GH/s | 6.2.3 | `-O -w 4` | AMD 23.12.1 | — |
+
+### AMD RX 5000
+
+| GPU | VRAM | MD5 speed | Hashcat | Options | Driver | Runtime |
+|---|---:|---:|---|---|---|---|
+| RX 5600 XT | 6 GB | 20.6 GH/s | 6.2.6-851 | `-O` | — | — |
+| RX 5700 XT | 8 GB | 23.8 GH/s | 5.1.0-1397-g7f4df9eb | `-O` | AMDGPU Pro 19.30 | OpenCL AMD-APP 2906.7 |
 
 ### AMD R9
 

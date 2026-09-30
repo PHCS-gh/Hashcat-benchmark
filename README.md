@@ -180,18 +180,39 @@
 | [RX 580 2048SP](https://github.com/PHCS-gh/Hashcat-benchmark/blob/main/AMD/AMD%20RX%20580%202048SP%2C%2032MCU) | 8 GB | 10.1 GH/s | 6.2.6 | `-O -w 4` | AMD 22.5.1 | — |
 | RX 590 | 8 GB | 14.0 GH/s | 6.2.5 | `-O` | — | OpenCL AMD-APP 3380.4 |
 
-### AMD RX 6000
-
-| GPU | VRAM | MD5 speed | Hashcat | Options | Driver | Runtime |
-|---|---:|---:|---|---|---|---|
-| [RX 6600](https://github.com/PHCS-gh/Hashcat-benchmark/blob/main/AMD/AMD%20RX%206600%208%20GB%2C%2014MCU) | 8 GB | 20.6 GH/s | 6.2.3 | `-O -w 4` | AMD 23.12.1 | — |
-
 ### AMD RX 5000
 
 | GPU | VRAM | MD5 speed | Hashcat | Options | Driver | Runtime |
 |---|---:|---:|---|---|---|---|
 | RX 5600 XT | 6 GB | 20.6 GH/s | 6.2.6-851 | `-O` | — | — |
 | RX 5700 XT | 8 GB | 23.8 GH/s | 5.1.0-1397-g7f4df9eb | `-O` | AMDGPU Pro 19.30 | OpenCL AMD-APP 2906.7 |
+
+### AMD RX 6000
+
+| GPU | VRAM | MD5 speed | Hashcat | Options | Driver | Runtime |
+|---|---:|---:|---|---|---|---|
+| [RX 6600](https://github.com/PHCS-gh/Hashcat-benchmark/blob/main/AMD/AMD%20RX%206600%208%20GB%2C%2014MCU) | 8 GB | 20.6 GH/s | 6.2.3 | `-O -w 4` | AMD 23.12.1 | — |
+| RX 6600 XT | 8 GB | 25.6 GH/s | 6.2.4 | `-O` | amdgpu-pro / ROCm | OpenCL AMD-APP 3314.0 |
+| RX 6650 XT | 8 GB | 28.0 GH/s | 6.2.5 | `-O` | 22.20.15.01-220725a-381283E | OpenCL AMD-APP 3444.0 |
+| RX 6700 XT | 12 GB | 31.5 GH/s | 6.2.5-545-g8e200e8eb+ | `-O` | — | HIP 5.1.20531 |
+| RX 6800 | 16 GB | 42.1 GH/s | 6.2.6-846-g4d412c8e0 | `-O` | — | OpenCL AMD-APP 3590.0 |
+| RX 6800 XT | 16 GB | 52.4 GH/s | 6.1.1-120-g15bf8b730 | `-O` | — | OpenCL AMD-APP 3212.0 |
+| RX 6900 XT | 16 GB | 64.3 GH/s | 6.1.1 | `-O` | — | OpenCL AMD-APP 3423.0 |
+| RX 6950 XT | 16 GB | 61.6 GH/s | 6.2.5 | `-O` | Adrenalin 22.5.1 / 22.6.1 (?) | HIP 4.4 / OpenCL AMD-APP 3380.6 |
+
+### AMD RX 7000
+
+| GPU | VRAM | MD5 speed | Hashcat | Options | Driver | Runtime |
+|---|---:|---:|---|---|---|---|
+| RX 7800 XT | 16 GB | 42.1 GH/s | 6.2.6 | `-O` | — | OpenCL AMD-APP 3617.0 |
+| RX 7900 XT | 20 GB | 61.7 GH/s | 6.2.6 | `-O` | — | HIP 5.4.22802 |
+| RX 7900 XTX | 24 GB | 69.6 GH/s | 7.1.2 | `-O` | — | OpenCL / ROCm 7.2 |
+
+### AMD RX 9000
+
+| GPU | VRAM | MD5 speed | Hashcat | Options | Driver | Runtime |
+|---|---:|---:|---|---|---|---|
+| RX 9070 XT | 16 GB | 52.6 GH/s | 6.2.6-813-g686bc227c | `-O` | 25.3.1 | OpenCL AMD-APP 3640.0 |
 
 ### AMD R9
 
@@ -207,8 +228,16 @@
 
 ## CPU
 
+### Intel
+
+| CPU | Memory | MD5 speed | Hashcat | Options | Driver | Runtime |
+|---|---:|---:|---|---|---|---|
+| EPYC 9754 128-Core | 2.3 TB | 28.0 GH/s | 6.2.6 | `-O` | — | — |
+| Ryzen Threadripper 3990X 64-Core | 128 GB | 8 922.5 MH/s | 7.1.2-798-g40a7d0c | `-O` | — | — |
+
 ### AMD
 
 | CPU | Memory | MD5 speed | Hashcat | Options | Driver | Runtime |
 |---|---:|---:|---|---|---|---|
 | EPYC 9754 128-Core | 2.3 TB | 28.0 GH/s | 6.2.6 | `-O` | — | — |
+| Ryzen Threadripper 3990X 64-Core | 128 GB | 8 922.5 MH/s | 7.1.2-798-g40a7d0c | `-O` | — | — |

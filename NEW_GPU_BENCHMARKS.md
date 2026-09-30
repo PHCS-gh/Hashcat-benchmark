@@ -1,32 +1,4 @@
-# New Hashcat MD5 (-m 0) GPU Benchmarks
 
-Only GPUs that are not present in the current main benchmark table are listed here.
-
-**Speed formatting:** values above **10,000 MH/s** are shown in **GH/s** with **1 decimal place**. Values below that threshold stay in **MH/s**.
-
-**Options:** `-O` means the optimized kernel was reported/effective for the benchmark. Hashcat benchmark mode enables optimized kernels by default. Non-standard workload options are shown explicitly.
-
----
-
-## NVIDIA RTX 20xx
-
-| GPU | VRAM | MD5 speed | Hashcat | Options | Driver | Runtime | Source |
-|---|---:|---:|---|---|---|---|---|
-| RTX 2070 SUPER Max-Q - Laptop | 8 GB | 25.0 GH/s | 6.2.5 | `-O` | 470.141.03 | CUDA 11.4 | [syselement benchmark](https://blog.syselement.com/home/home-lab/redteam/lab-hashcat) |
-
-## NVIDIA RTX 30xx
-
-| GPU | VRAM | MD5 speed | Hashcat | Options | Driver | Runtime | Source |
-|---|---:|---:|---|---|---|---|---|
-| RTX 3050 6 GB | 6 GB | 13.9 GH/s | — | `-O` | — | OpenCL CUDA 12.4.131 | [GitHub Gist](https://gist.github.com/vladviolentiy/65ce44d889ee549fdd863f86d7d0267b) |
-| RTX 3050 Ti - Laptop | 4 GB | 16.8 GH/s | 6.2.6 | `-O` | — | CUDA 12.0 | [syselement benchmark](https://blog.syselement.com/home/home-lab/redteam/lab-hashcat) |
-| RTX 3060 - Laptop | 6 GB | 25.0 GH/s | 6.2.5 | `-O` | — | CUDA 11.6 | [GitHub Gist](https://gist.github.com/neeythann/542b28bbdf167fa76fa613698dfe4f86) |
-
-## NVIDIA RTX 40xx
-
-| GPU | VRAM | MD5 speed | Hashcat | Options | Driver | Runtime | Source |
-|---|---:|---:|---|---|---|---|---|
-| RTX 4050 - Laptop | 6 GB | 8 278.2 MH/s | 6.2.6 | `-w 1` | — | CUDA 12.9 | [hashcat forum](https://hashcat.net/forum/showthread.php?mode=threaded&pid=63883&tid=13412) |
 
 ## NVIDIA PRO — Ada Generation
 
